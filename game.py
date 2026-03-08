@@ -25,6 +25,7 @@ from settings import (
     PLAYER_TARGET_HEIGHT,
     RAT_BASE_SPEED,
     RAT_MAX_SPEED,
+    RAT_SPEED_MULTIPLIER,
     RAT_SPEED_VARIANCE,
     RAT_TARGET_HEIGHT,
     SCREEN_HEIGHT,
@@ -209,7 +210,7 @@ class Game:
         return clamp(time_factor + score_factor, 0.0, 1.0)
 
     def _current_rat_speed(self) -> float:
-        return lerp(RAT_BASE_SPEED, RAT_MAX_SPEED, self._difficulty_progress())
+        return lerp(RAT_BASE_SPEED, RAT_MAX_SPEED, self._difficulty_progress()) * RAT_SPEED_MULTIPLIER
 
     def _current_spawn_interval(self) -> float:
         return lerp(SPAWN_INTERVAL_START, SPAWN_INTERVAL_END, self._difficulty_progress())

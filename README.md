@@ -12,6 +12,10 @@ You control Tina near the bottom of the screen. Rats fall from above. Time your 
 <img width="966" height="678" alt="image" src="https://github.com/user-attachments/assets/8ef23d97-9b82-47ea-85de-9e4e17e1191f" />
 
 
+https://github.com/user-attachments/assets/c36f7f1c-54d6-44f3-9eaa-ed4ce84deb78
+
+
+
 - Title:
   - Any key: start
   - `Esc`: quit

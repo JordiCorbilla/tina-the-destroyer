@@ -430,13 +430,13 @@ class Game:
     def _draw_playing(self, now: float) -> None:
         self.world_surface.blit(self.background, (0, 0))
 
+        self.player.draw(self.world_surface)
+
         for rat in self.rats:
             rat.draw(self.world_surface)
 
         for effect in self.impact_effects:
             effect.draw(self.world_surface, now)
-
-        self.player.draw(self.world_surface)
 
         offset_x, offset_y = self._get_shake_offset()
         self.screen.fill((0, 0, 0))

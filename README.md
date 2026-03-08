@@ -2,13 +2,13 @@
 
 One-screen local arcade game built with Python + Pygame.
 
-<img width="1536" height="1024" alt="title" src="https://github.com/user-attachments/assets/c4b435a8-618e-4a51-a834-33202118228e" />
+<img width="1536" height="1024" alt="title" src="https://github.com/user-attachments/assets/3b5de0a0-223b-43cf-bb4b-8707a293e2f2" />
 
 You control Tina near the bottom of the screen. Rats fall from above. Time your ground smash to squash them before they reach the bottom. Missed rats cost lives. Survive as long as possible and beat your best score.
 
 ## Controls
 
-<img width="962" height="674" alt="image" src="https://github.com/user-attachments/assets/90164c2a-8610-4e29-b67b-f7220f069acd" />
+<img width="960" height="672" alt="image" src="https://github.com/user-attachments/assets/11db2d1d-7027-46fd-95ce-8bf95ac3996b" />
 <img width="966" height="678" alt="image" src="https://github.com/user-attachments/assets/8ef23d97-9b82-47ea-85de-9e4e17e1191f" />
 
 

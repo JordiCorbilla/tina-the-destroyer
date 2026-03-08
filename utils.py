@@ -1,3 +1,7 @@
+# Tina the Destroyer
+# Copyright (c) 2026 Jordi Corbilla.
+# All rights reserved.
+
 import json
 from pathlib import Path
 from typing import Callable, Iterable, Optional

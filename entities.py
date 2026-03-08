@@ -1,3 +1,7 @@
+# Tina the Destroyer
+# Copyright (c) 2026 Jordi Corbilla.
+# All rights reserved.
+
 from __future__ import annotations
 
 import pygame
